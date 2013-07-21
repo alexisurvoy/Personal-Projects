@@ -1,0 +1,1164 @@
+Tsdlgame
+v7
+r0
+t396098206.762825
+cCheck dependencies
+cProcessInfoPlistFile /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Info.plist Info.plist
+cCopyStringsFile /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+cCpResource build/Debug/sdlgame.app/Contents/Resources/level1.level levels/level1.level
+cCpResource build/Debug/sdlgame.app/Contents/Resources/box.png images/box.png
+cCpResource build/Debug/sdlgame.app/Contents/Resources/floor.png images/floor.png
+cCpResource build/Debug/sdlgame.app/Contents/Resources/wall.png images/wall.png
+cCpResource build/Debug/sdlgame.app/Contents/Resources/character_face.png images/character_face.png
+cCpResource build/Debug/sdlgame.app/Contents/Resources/objective.png images/objective.png
+cProcessPCH /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dyjvxorikgmhzogqicqhtegzawxv/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cProcessPCH++ /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+cProcessPCH /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-csnclnmnsmueyccztfjsljcgyohi/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+cProcessPCH++ /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/SDLMain.o /Users/alex/Documents/sdlgame/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/main.o /Users/alex/Documents/sdlgame/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Level.o /Users/alex/Documents/sdlgame/Level.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Character.o /Users/alex/Documents/sdlgame/Character.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Box.o /Users/alex/Documents/sdlgame/Box.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/HomeScreen.o /Users/alex/Documents/sdlgame/HomeScreen.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/SDLMain.o /Users/alex/Documents/sdlgame/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
+cLd /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/sdlgame normal x86_64
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/main.o /Users/alex/Documents/sdlgame/main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Level.o /Users/alex/Documents/sdlgame/Level.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Character.o /Users/alex/Documents/sdlgame/Character.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Box.o /Users/alex/Documents/sdlgame/Box.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/HomeScreen.o /Users/alex/Documents/sdlgame/HomeScreen.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+cLd /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/sdlgame normal i386
+cCreateUniversalBinary /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/MacOS/sdlgame normal "x86_64 i386"
+cPBXCp build/Debug/sdlgame.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
+cTouch /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app
+
+N/Developer/SDKs/MacOSX10.4u.sdk
+c000000004DDE171B00000000000000EE
+t1306400539
+s238
+
+N/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers/SDL.h
+c000000004F17A7BF0000000000000CA1
+t1326950335
+s3233
+
+N/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers/SDL_image.h
+c000000004F1A19B90000000000001599
+t1327110585
+s5529
+
+N/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/SDL_image
+c000000004F1A19B900000000000123F0
+t1327110585
+s74736
+
+N/Developer/SDKs/MacOSX10.4u.sdk/System/Library/Frameworks/Cocoa.framework/Headers/Cocoa.h
+c0000000040C4AA6800000000000001E5
+t1086630504
+s485
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/math.h
+c00000000462E7AF500000000000004B7
+t1177451253
+s1207
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdio.h
+c00000000463BAA5A0000000000003B7F
+t1178315354
+s15231
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/stdlib.h
+c00000000463BAA5A0000000000002647
+t1178315354
+s9799
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/string.h
+c00000000463BAA5A00000000000014D3
+t1178315354
+s5331
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/sys/param.h
+c0000000046F2351400000000000025D9
+t1190278420
+s9689
+
+N/Developer/SDKs/MacOSX10.4u.sdk/usr/include/unistd.h
+c00000000463BAA5A0000000000004EED
+t1178315354
+s20205
+
+N/Developer/SDKs/MacOSX10.6.sdk
+c000000004DDE174100000000000000EE
+t1306400577
+s238
+
+N/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/SDL_image
+c000000004F1A19B900000000000123F0
+t1327110585
+s74736
+
+N/Library/Frameworks/SDL.framework
+c000000004F17A7BF00000000000000CC
+t1326950335
+s204
+
+N/Library/Frameworks/SDL.framework/SDL
+c000000004F17A7BF00000000000B66C8
+t1326950335
+s747208
+
+N/System/Library/Frameworks/Cocoa.framework/Cocoa
+c0000000051AB7FEF0000000000006730
+t1370193903
+s26416
+
+N/Users/alex/Documents/sdlgame/Box.cpp
+c0000000050DF4A25000000000000081D
+t1356810789
+s2077
+i"Box.h"
+
+N/Users/alex/Documents/sdlgame/Box.h
+c0000000050DEF0880000000000000234
+t1356787848
+s564
+i<iostream>
+i<fstream>
+i<string>
+i"SDL_image.h"
+i"Character.h"
+
+N/Users/alex/Documents/sdlgame/Character.cpp
+c0000000050DF40DD0000000000000ECE
+t1356808413
+s3790
+i"Character.h"
+
+N/Users/alex/Documents/sdlgame/Character.h
+c0000000050DEF5BB00000000000003F3
+t1356789179
+s1011
+i<iostream>
+i<fstream>
+i<string>
+i"SDL_image.h"
+
+N/Users/alex/Documents/sdlgame/English.lproj/InfoPlist.strings
+c0000000050DAC4C6000000000000021C
+t1356514502
+s540
+
+N/Users/alex/Documents/sdlgame/HomeScreen.cpp
+c00000000511631D400000000000000E6
+t1360409044
+s230
+i"HomeScreen.h"
+
+N/Users/alex/Documents/sdlgame/HomeScreen.h
+c00000000511631740000000000000125
+t1360408948
+s293
+
+N/Users/alex/Documents/sdlgame/Level.cpp
+c0000000050DF49B40000000000000C75
+t1356810676
+s3189
+i"Level.h"
+
+N/Users/alex/Documents/sdlgame/Level.h
+c0000000050DF49970000000000000229
+t1356810647
+s553
+i<iostream>
+i<fstream>
+i"SDL_image.h"
+i"Character.h"
+i"Box.h"
+
+N/Users/alex/Documents/sdlgame/SDLMain.h
+c0000000050DAC4C60000000000000176
+t1356514502
+s374
+i<Cocoa/Cocoa.h>
+
+N/Users/alex/Documents/sdlgame/SDLMain.m
+c0000000050DAC4C60000000000002C00
+t1356514502
+s11264
+i"SDL.h"
+i"SDLMain.h"
+i<sys/param.h>
+i<unistd.h>
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app
+t1374405406
+s102
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Frameworks/SDL.framework
+t1356514527
+s204
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Info.plist
+t1374405386
+s1366
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/MacOS/sdlgame
+t1374405406
+s101792
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/PkgInfo
+t1374405386
+s8
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/English.lproj/InfoPlist.strings
+t1356514521
+s540
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/box.png
+t1356628868
+s5097
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/character_face.png
+t1356699227
+s1927
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/floor.png
+t1356628320
+s10235
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/level1.level
+t1356810830
+s230
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/objective.png
+t1356808573
+s2882
+
+N/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/wall.png
+t1356628320
+s17184
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Box.o
+t1374405404
+s22416
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Character.o
+t1374405404
+s43168
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/HomeScreen.o
+t1374405404
+s4148
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Level.o
+t1374405404
+s47876
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/SDLMain.o
+t1374405403
+s39624
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/main.o
+t1374405404
+s34932
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/sdlgame
+t1374405406
+s48544
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/sdlgame.LinkFileList
+c0000000051EBC30A0000000000000254
+t1374405386
+s596
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Box.o
+t1374405402
+s55128
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Character.o
+t1374405402
+s60624
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/HomeScreen.o
+t1374405402
+s5520
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Level.o
+t1374405402
+s96344
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/SDLMain.o
+t1374405400
+s42380
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/main.o
+t1374405402
+s51576
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/sdlgame
+t1374405404
+s45296
+
+N/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/sdlgame.LinkFileList
+c0000000051EBC30A0000000000000260
+t1374405386
+s608
+
+N/Users/alex/Documents/sdlgame/images/box.png
+c0000000050DC836E00000000000013E9
+t1356628846
+s5097
+
+N/Users/alex/Documents/sdlgame/images/character_face.png
+c0000000050DD95440000000000000787
+t1356698948
+s1927
+
+N/Users/alex/Documents/sdlgame/images/floor.png
+c0000000050DC7FB800000000000027FB
+t1356627896
+s10235
+
+N/Users/alex/Documents/sdlgame/images/objective.png
+c0000000050DF40AC0000000000000B42
+t1356808364
+s2882
+
+N/Users/alex/Documents/sdlgame/images/wall.png
+c0000000050DC7FD70000000000004320
+t1356627927
+s17184
+
+N/Users/alex/Documents/sdlgame/level1.level
+c0000000050D5E908000000000000274D
+t1356196104
+s10061
+
+N/Users/alex/Documents/sdlgame/levels/level1.level
+c0000000050DF4A4D00000000000000E6
+t1356810829
+s230
+
+N/Users/alex/Documents/sdlgame/main.c
+c0000000050DB361200000000000003CD
+t1356543506
+s973
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i<math.h>
+i"SDL.h"
+
+N/Users/alex/Documents/sdlgame/main.cpp
+c0000000050DE000C0000000000000491
+t1356726284
+s1169
+i<stdio.h>
+i<stdlib.h>
+i<string.h>
+i"Level.h"
+i<math.h>
+i<iostream>
+i"SDL.h"
+
+N/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch
+c0000000050DAC4C600000000000000AF
+t1356514502
+s175
+i"SDL.h"
+i<Cocoa/Cocoa.h>
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-ainrijsaikrclcbtjndyniibmvvo/sdlgame_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-annypywonfvlggedsaufffzzklnz/sdlgame_Prefix.pch.gch
+t1356555499
+s55057008
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-avouosnmizctcgbbjqefeiaeudnq/sdlgame_Prefix.pch.gch
+t1356555495
+s4729168
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-axegjajyybxahzcrrznrfeghfudm/sdlgame_Prefix.pch.gch
+t1356514525
+s2281320
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-betnyqwclvpmqyfhometapsmbpiy/sdlgame_Prefix.pch.gch
+t1356514521
+s4315568
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-bmpsperxniththbacdicpehrdmgx/sdlgame_Prefix.pch.gch
+t1356555730
+s4729168
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-boxjfzlnavvnoyfmqyawqahuorpp/sdlgame_Prefix.pch.gch
+t1356555498
+s30511584
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-byevnvfaasvlnybbkblohughpwct/sdlgame_Prefix.pch.gch
+t1356514524
+s30511584
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-cfqdcvlwjmcqehcjxfnslyzurmty/sdlgame_Prefix.pch.gch
+t1356555499
+s2600808
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-crzxojxdeibsmvaqocrywyxwjaxe/sdlgame_Prefix.pch.gch
+t1356514525
+s55057008
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-csnclnmnsmueyccztfjsljcgyohi/sdlgame_Prefix.pch.gch
+t1356556267
+s30511584
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-cvckatryggwufkgkkcpokliywfte/sdlgame_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-ddirdchsxadrfqbgiaecviivhrjv/sdlgame_Prefix.pch.gch
+t1356555732
+s30511584
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-difyvgzdvuwgxgdzbqopabmgdyqu/sdlgame_Prefix.pch.gch
+t1356555610
+s55057008
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dpxstgwxnejwlqaqqkxoszrdgwxu/sdlgame_Prefix.pch.gch
+t1356555733
+s2600808
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dyjvxorikgmhzogqicqhtegzawxv/sdlgame_Prefix.pch.gch
+t1356556268
+s55057008
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dzjnrxpzlgfkxkgejfkulektpitm/sdlgame_Prefix.pch.gch
+t1356555733
+s55057008
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-ebicyslbjtqjindaraxtxiqiuehs/sdlgame_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-espjjnoowfyikmclvfodejrifisz/sdlgame_Prefix.pch.gch
+t1356543566
+s4729168
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch.gch
+t1356556267
+s2600808
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch.gch
+t1356556264
+s4729168
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fnyauiggwfpfquafvrhlyuradbxc/sdlgame_Prefix.pch.gch
+t1356543566
+s2600808
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fywgijsvtbwhgjaclujomlncetrf/sdlgame_Prefix.pch.gch
+t1356555607
+s4729168
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-gkqnihycmeboqkakvprwcmhplzir/sdlgame_Prefix.pch.gch
+t1356555610
+s30511584
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-gphzqhvtqbbhfwgvnmbjtiubgbug/sdlgame_Prefix.pch.gch
+t2
+s0
+
+N/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-gzledamrukahzdgturvmdfselbtn/sdlgame_Prefix.pch.gch
+t1356555610
+s2600808
+
+N/var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-csnclnmnsmueyccztfjsljcgyohi/sdlgame_Prefix.pch.gch
+t1374405396
+s30511584
+
+N/var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dyjvxorikgmhzogqicqhtegzawxv/sdlgame_Prefix.pch.gch
+t1374405399
+s55057008
+
+N/var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch.gch
+t1374405396
+s2600808
+
+N/var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch.gch
+t1374405387
+s4729168
+
+NInfo.plist
+c0000000050DAC4C6000000000000040A
+t1356514502
+s1034
+
+CCheck dependencies
+r0
+lSLF07#2@18"Check dependencies396098185#396098186#0(0"0(0#1#0"17209092608#0"0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Box.o /Users/alex/Documents/sdlgame/Box.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s396098204.554563
+e396098204.875719
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Box.o
+x/Users/alex/Documents/sdlgame/Box.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@45"Compile /Users/alex/Documents/sdlgame/Box.cpp396098204#396098204#0(0"0(0#0#37"/Users/alex/Documents/sdlgame/Box.cpp4317978624#1372"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/Box.cpp -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Box.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Character.o /Users/alex/Documents/sdlgame/Character.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s396098204.477642
+e396098204.792483
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Character.o
+x/Users/alex/Documents/sdlgame/Character.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@51"Compile /Users/alex/Documents/sdlgame/Character.cpp396098204#396098204#0(0"0(0#0#43"/Users/alex/Documents/sdlgame/Character.cpp4317978624#1384"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/Character.cpp -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Character.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/HomeScreen.o /Users/alex/Documents/sdlgame/HomeScreen.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s396098204.792578
+e396098204.821742
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/HomeScreen.o
+x/Users/alex/Documents/sdlgame/HomeScreen.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@52"Compile /Users/alex/Documents/sdlgame/HomeScreen.cpp396098204#396098204#0(0"0(0#0#44"/Users/alex/Documents/sdlgame/HomeScreen.cpp4317978624#1386"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/HomeScreen.cpp -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/HomeScreen.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Level.o /Users/alex/Documents/sdlgame/Level.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s396098204.199343
+e396098204.554466
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Level.o
+x/Users/alex/Documents/sdlgame/Level.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@47"Compile /Users/alex/Documents/sdlgame/Level.cpp396098204#396098204#0(0"0(0#0#39"/Users/alex/Documents/sdlgame/Level.cpp4317978624#1376"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/Level.cpp -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/Level.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/SDLMain.o /Users/alex/Documents/sdlgame/SDLMain.m normal i386 objective-c com.apple.compilers.gcc.4_0
+s396098202.640796
+e396098203.543428
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/SDLMain.o
+x/Users/alex/Documents/sdlgame/SDLMain.m
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@47"Compile /Users/alex/Documents/sdlgame/SDLMain.m396098202#396098203#0(0"0(0#0#39"/Users/alex/Documents/sdlgame/SDLMain.m4317978624#1358"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-csnclnmnsmueyccztfjsljcgyohi/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/SDLMain.m -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/SDLMain.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/main.o /Users/alex/Documents/sdlgame/main.c normal i386 c com.apple.compilers.gcc.4_0
+s378236259.900565
+e378236260.014743
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/main.o
+x/Users/alex/Documents/sdlgame/main.c
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@44"Compile /Users/alex/Documents/sdlgame/main.c378236259#378236260#0(0"0(0#0#36"/Users/alex/Documents/sdlgame/main.c8604341472#1204"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-axegjajyybxahzcrrznrfeghfudm/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/main.c -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/main.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/main.o /Users/alex/Documents/sdlgame/main.cpp normal i386 c++ com.apple.compilers.gcc.4_0
+s396098203.543513
+e396098204.477536
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/main.o
+x/Users/alex/Documents/sdlgame/main.cpp
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@46"Compile /Users/alex/Documents/sdlgame/main.cpp396098203#396098204#0(0"0(0#0#38"/Users/alex/Documents/sdlgame/main.cpp4317978624#1374"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++ -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/main.cpp -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/main.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Box.o /Users/alex/Documents/sdlgame/Box.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s396098202.132451
+e396098202.588063
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Box.o
+x/Users/alex/Documents/sdlgame/Box.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@45"Compile /Users/alex/Documents/sdlgame/Box.cpp396098202#396098202#0(0"0(0#0#37"/Users/alex/Documents/sdlgame/Box.cpp4317978624#1374"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/Box.cpp -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Box.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Character.o /Users/alex/Documents/sdlgame/Character.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s396098202.096889
+e396098202.640705
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Character.o
+x/Users/alex/Documents/sdlgame/Character.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@51"Compile /Users/alex/Documents/sdlgame/Character.cpp396098202#396098202#0(0"0(0#0#43"/Users/alex/Documents/sdlgame/Character.cpp17181721856#1386"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/Character.cpp -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Character.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/HomeScreen.o /Users/alex/Documents/sdlgame/HomeScreen.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s396098202.588157
+e396098202.680775
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/HomeScreen.o
+x/Users/alex/Documents/sdlgame/HomeScreen.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@52"Compile /Users/alex/Documents/sdlgame/HomeScreen.cpp396098202#396098202#0(0"0(0#0#44"/Users/alex/Documents/sdlgame/HomeScreen.cpp4317978624#1388"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/HomeScreen.cpp -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/HomeScreen.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Level.o /Users/alex/Documents/sdlgame/Level.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s396098200.669490
+e396098202.132355
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Level.o
+x/Users/alex/Documents/sdlgame/Level.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/alex/Documents/sdlgame/Level.cpp396098200#396098202#0(0"0(0#0#39"/Users/alex/Documents/sdlgame/Level.cpp4317978624#1378"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/Level.cpp -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/Level.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/SDLMain.o /Users/alex/Documents/sdlgame/SDLMain.m normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s396098199.785719
+e396098200.669401
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/SDLMain.o
+x/Users/alex/Documents/sdlgame/SDLMain.m
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@47"Compile /Users/alex/Documents/sdlgame/SDLMain.m396098199#396098200#0(0"0(0#0#39"/Users/alex/Documents/sdlgame/SDLMain.m4317978624#1360"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dyjvxorikgmhzogqicqhtegzawxv/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/SDLMain.m -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/SDLMain.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/main.o /Users/alex/Documents/sdlgame/main.c normal x86_64 c com.apple.compilers.gcc.4_2
+s378236259.872306
+e378236259.978398
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/main.o
+x/Users/alex/Documents/sdlgame/main.c
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@44"Compile /Users/alex/Documents/sdlgame/main.c378236259#378236259#0(0"0(0#0#36"/Users/alex/Documents/sdlgame/main.c3401403401131030528#1207"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-betnyqwclvpmqyfhometapsmbpiy/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/main.c -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/main.o0#
+
+CCompileC build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/main.o /Users/alex/Documents/sdlgame/main.cpp normal x86_64 c++ com.apple.compilers.gcc.4_2
+s396098199.787075
+e396098202.096756
+r1
+xCompileC
+xbuild/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/main.o
+x/Users/alex/Documents/sdlgame/main.cpp
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+o/Users/alex/Documents/sdlgame/main.cpp: In function 'int SDL_main(int, char**)':
+o/Users/alex/Documents/sdlgame/main.cpp:45: warning: deprecated conversion from string constant to 'char*'
+lSLF07#2@46"Compile /Users/alex/Documents/sdlgame/main.cpp396098199#396098202#0(187"/Users/alex/Documents/sdlgame/main.cpp: In function 'int SDL_main(int, char**)':/Users/alex/Documents/sdlgame/main.cpp:45: warning: deprecated conversion from string constant to 'char*'1(22@53"Deprecated conversion from string constant to 'char*'396098201#81#106#0(6@38"/Users/alex/Documents/sdlgame/main.cpp378419084#45#0#45#0#49"deprecated conversion from string constant to '*'0(0#0#38"/Users/alex/Documents/sdlgame/main.cpp4317978624#1376"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++ -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -include /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch -c /Users/alex/Documents/sdlgame/main.cpp -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/main.o0#
+
+CCopyStringsFile /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/English.lproj/InfoPlist.strings English.lproj/InfoPlist.strings
+s378207321.132084
+e378207321.477031
+r1
+xCopyStringsFile
+x/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/English.lproj/InfoPlist.strings
+xEnglish.lproj/InfoPlist.strings
+lSLF07#2@36"Copy English.lproj/InfoPlist.strings378207321#378207321#0(0"0(0#0#61"/Users/alex/Documents/sdlgame/English.lproj/InfoPlist.strings8604841888#348"    cd /Users/alex/Documents/sdlgame    setenv ICONV /usr/bin/iconv    /Developer/Library/Xcode/Plug-ins/CoreBuildTasks.xcplugin/Contents/Resources/copystrings --validate --inputencoding utf-16 --outputencoding UTF-16 English.lproj/InfoPlist.strings --outdir /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources/English.lproj0#
+
+CCpResource build/Debug/sdlgame.app/Contents/Resources/box.png images/box.png
+s378321668.882638
+e378321668.887931
+r1
+xCpResource
+xbuild/Debug/sdlgame.app/Contents/Resources/box.png
+ximages/box.png
+lSLF07#2@19"Copy images/box.png378321668#378321668#0(0"0(0#0#44"/Users/alex/Documents/sdlgame/images/box.png8619960960#317"    cd /Users/alex/Documents/sdlgame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Documents/sdlgame/images/box.png /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources0#
+
+CCpResource build/Debug/sdlgame.app/Contents/Resources/character_face.png images/character_face.png
+s378392027.646357
+e378392027.714509
+r1
+xCpResource
+xbuild/Debug/sdlgame.app/Contents/Resources/character_face.png
+ximages/character_face.png
+lSLF07#2@30"Copy images/character_face.png378392027#378392027#0(0"0(0#0#55"/Users/alex/Documents/sdlgame/images/character_face.png8617106816#328"    cd /Users/alex/Documents/sdlgame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Documents/sdlgame/images/character_face.png /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources0#
+
+CCpResource build/Debug/sdlgame.app/Contents/Resources/floor.png images/floor.png
+s378321120.215470
+e378321120.242764
+r1
+xCpResource
+xbuild/Debug/sdlgame.app/Contents/Resources/floor.png
+ximages/floor.png
+lSLF07#2@21"Copy images/floor.png378321120#378321120#0(0"0(0#0#46"/Users/alex/Documents/sdlgame/images/floor.png8612856480#319"    cd /Users/alex/Documents/sdlgame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Documents/sdlgame/images/floor.png /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources0#
+
+CCpResource build/Debug/sdlgame.app/Contents/Resources/level1.level level1.level
+s378239982.324279
+e378239982.340632
+r1
+xCpResource
+xbuild/Debug/sdlgame.app/Contents/Resources/level1.level
+xlevel1.level
+lSLF07#2@17"Copy level1.level378239982#378239982#0(0"0(0#0#42"/Users/alex/Documents/sdlgame/level1.level8612063968#315"    cd /Users/alex/Documents/sdlgame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Documents/sdlgame/level1.level /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources0#
+
+CCpResource build/Debug/sdlgame.app/Contents/Resources/level1.level levels/level1.level
+s378503630.694010
+e378503630.702968
+r1
+xCpResource
+xbuild/Debug/sdlgame.app/Contents/Resources/level1.level
+xlevels/level1.level
+lSLF07#2@24"Copy levels/level1.level378503630#378503630#0(0"0(0#0#49"/Users/alex/Documents/sdlgame/levels/level1.level8607750176#322"    cd /Users/alex/Documents/sdlgame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Documents/sdlgame/levels/level1.level /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources0#
+
+CCpResource build/Debug/sdlgame.app/Contents/Resources/objective.png images/objective.png
+s378501373.744232
+e378501373.750373
+r1
+xCpResource
+xbuild/Debug/sdlgame.app/Contents/Resources/objective.png
+ximages/objective.png
+lSLF07#2@25"Copy images/objective.png378501373#378501373#0(0"0(0#0#50"/Users/alex/Documents/sdlgame/images/objective.png32370120545140836#323"    cd /Users/alex/Documents/sdlgame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Documents/sdlgame/images/objective.png /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources0#
+
+CCpResource build/Debug/sdlgame.app/Contents/Resources/wall.png images/wall.png
+s378321120.216070
+e378321120.242928
+r1
+xCpResource
+xbuild/Debug/sdlgame.app/Contents/Resources/wall.png
+ximages/wall.png
+lSLF07#2@20"Copy images/wall.png378321120#378321120#0(0"0(0#0#45"/Users/alex/Documents/sdlgame/images/wall.png8612801536#318"    cd /Users/alex/Documents/sdlgame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Users/alex/Documents/sdlgame/images/wall.png /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Resources0#
+
+CCreateUniversalBinary /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/MacOS/sdlgame normal "x86_64 i386"
+s396098206.721397
+e396098206.747317
+r1
+xCreateUniversalBinary
+x/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/MacOS/sdlgame
+xnormal
+xx86_64 i386
+lSLF07#2@89"CreateUniversalBinary build/Debug/sdlgame.app/Contents/MacOS/sdlgame normal "x86_64 i386"396098206#396098206#0(0"0(0#0#41"/Users/alex/Documents/sdlgame/x86_64 i3864317978624#346"    cd /Users/alex/Documents/sdlgame    /usr/bin/lipo -create /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/sdlgame /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/sdlgame -output /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/MacOS/sdlgame0#
+
+CLd /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/sdlgame normal i386
+s396098204.875809
+e396098206.721280
+r1
+xLd
+x/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/sdlgame
+xnormal
+xi386
+old: warning: directory '/Users/alex/Library/Frameworks' following -F not found
+lSLF07#2@102"Link /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/sdlgame396098204#396098206#0(79"ld: warning: directory '/Users/alex/Library/Frameworks' following -F not found1(22@65"Directory '/Users/alex/Library/Frameworks' following -F not found396098206#0#79#0(6@0"396098206#0#0#0#0#0"0(0#0#0"4317978624#637"    cd /Users/alex/Documents/sdlgame    setenv MACOSX_DEPLOYMENT_TARGET 10.4    /Developer/usr/bin/g++-4.0 -arch i386 -isysroot /Developer/SDKs/MacOSX10.4u.sdk -L/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -filelist /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/sdlgame.LinkFileList -mmacosx-version-min=10.4 -framework SDL -framework Cocoa -framework SDL_image -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/i386/sdlgame0#
+
+CLd /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/sdlgame normal x86_64
+s396098202.680867
+e396098204.199223
+r1
+xLd
+x/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/sdlgame
+xnormal
+xx86_64
+old: warning: directory '/Users/alex/Library/Frameworks' following -F not found
+lSLF07#2@104"Link /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/sdlgame396098202#396098204#0(79"ld: warning: directory '/Users/alex/Library/Frameworks' following -F not found1(22@65"Directory '/Users/alex/Library/Frameworks' following -F not found396098204#0#79#0(6@0"396098204#0#0#0#0#0"0(0#0#0"4317978624#641"    cd /Users/alex/Documents/sdlgame    setenv MACOSX_DEPLOYMENT_TARGET 10.6    /Developer/usr/bin/g++-4.2 -arch x86_64 -isysroot /Developer/SDKs/MacOSX10.6.sdk -L/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -filelist /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/sdlgame.LinkFileList -mmacosx-version-min=10.6 -framework SDL -framework Cocoa -framework SDL_image -o /Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/Objects-normal/x86_64/sdlgame0#
+
+CPBXCp build/Debug/sdlgame.app/Contents/Frameworks/SDL.framework /Library/Frameworks/SDL.framework
+s378207327.864509
+e378207328.027294
+r1
+xPBXCp
+xbuild/Debug/sdlgame.app/Contents/Frameworks/SDL.framework
+x/Library/Frameworks/SDL.framework
+lSLF07#2@38"Copy /Library/Frameworks/SDL.framework378207327#378207328#0(0"0(0#0#33"/Library/Frameworks/SDL.framework8603829088#307"    cd /Users/alex/Documents/sdlgame    /Developer/Library/PrivateFrameworks/DevToolsCore.framework/Resources/pbxcp -exclude .DS_Store -exclude CVS -exclude .svn -exclude .git -resolve-src-symlinks /Library/Frameworks/SDL.framework /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Frameworks0#
+
+CProcessInfoPlistFile /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Info.plist Info.plist
+s396098186.959858
+e396098186.977130
+r1
+xProcessInfoPlistFile
+x/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Info.plist
+xInfo.plist
+lSLF07#2@18"Process Info.plist396098186#396098186#0(0"0(0#0#40"/Users/alex/Documents/sdlgame/Info.plist17239206400#275"    cd /Users/alex/Documents/sdlgame    builtin-infoPlistUtility Info.plist -genpkginfo /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/PkgInfo -expandbuildsettings -platform macosx -o /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app/Contents/Info.plist0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-annypywonfvlggedsaufffzzklnz/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s378248295.234728
+e378248299.827795
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-annypywonfvlggedsaufffzzklnz/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248295#378248299#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8625488544#1204"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-annypywonfvlggedsaufffzzklnz/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-axegjajyybxahzcrrznrfeghfudm/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 c com.apple.compilers.gcc.4_0
+s378207324.855453
+e378207325.209959
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-axegjajyybxahzcrrznrfeghfudm/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xc
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378207324#378207325#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8605499712#1121"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-axegjajyybxahzcrrznrfeghfudm/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-betnyqwclvpmqyfhometapsmbpiy/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 c com.apple.compilers.gcc.4_2
+s378207321.478630
+e378207322.238726
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-betnyqwclvpmqyfhometapsmbpiy/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xc
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378207321#378207322#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8605356320#1122"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-betnyqwclvpmqyfhometapsmbpiy/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-boxjfzlnavvnoyfmqyawqahuorpp/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s378248295.613151
+e378248298.982582
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-boxjfzlnavvnoyfmqyawqahuorpp/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248295#378248298#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8632176256#1204"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-boxjfzlnavvnoyfmqyawqahuorpp/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-byevnvfaasvlnybbkblohughpwct/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s378207322.238909
+e378207324.855188
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-byevnvfaasvlnybbkblohughpwct/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378207322#378207324#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8604934336#1131"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-byevnvfaasvlnybbkblohughpwct/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-crzxojxdeibsmvaqocrywyxwjaxe/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s378207321.477308
+e378207325.521898
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-crzxojxdeibsmvaqocrywyxwjaxe/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378207321#378207325#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8605419104#1132"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-crzxojxdeibsmvaqocrywyxwjaxe/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-csnclnmnsmueyccztfjsljcgyohi/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s378249064.424379
+e378249067.314361
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-csnclnmnsmueyccztfjsljcgyohi/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378249064#378249067#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8631478592#1273"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-csnclnmnsmueyccztfjsljcgyohi/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-cvckatryggwufkgkkcpokliywfte/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-ddirdchsxadrfqbgiaecviivhrjv/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s378248530.518385
+e378248532.907443
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-ddirdchsxadrfqbgiaecviivhrjv/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248530#378248532#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8623654976#1212"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-ddirdchsxadrfqbgiaecviivhrjv/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-difyvgzdvuwgxgdzbqopabmgdyqu/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s378248407.315701
+e378248410.916998
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-difyvgzdvuwgxgdzbqopabmgdyqu/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248407#378248410#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8624509792#1185"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL_image.framework -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-difyvgzdvuwgxgdzbqopabmgdyqu/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dyjvxorikgmhzogqicqhtegzawxv/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s378249064.173965
+e378249068.406435
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dyjvxorikgmhzogqicqhtegzawxv/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378249064#378249068#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8624224608#1273"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dyjvxorikgmhzogqicqhtegzawxv/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dzjnrxpzlgfkxkgejfkulektpitm/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s378248530.281864
+e378248533.797440
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dzjnrxpzlgfkxkgejfkulektpitm/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248530#378248533#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8626479072#1212"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dzjnrxpzlgfkxkgejfkulektpitm/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-gkqnihycmeboqkakvprwcmhplzir/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s378248407.552320
+e378248410.088634
+r1
+xProcessPCH
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-gkqnihycmeboqkakvprwcmhplzir/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248407#378248410#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8624707232#1184"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL_image.framework -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-gkqnihycmeboqkakvprwcmhplzir/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-gphzqhvtqbbhfwgvnmbjtiubgbug/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+r0
+
+CProcessPCH /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-csnclnmnsmueyccztfjsljcgyohi/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 objective-c com.apple.compilers.gcc.4_0
+s396098187.985111
+e396098196.443734
+r1
+xProcessPCH
+x/var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-csnclnmnsmueyccztfjsljcgyohi/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xobjective-c
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch396098187#396098196#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch4317978624#1269"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x objective-c-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-csnclnmnsmueyccztfjsljcgyohi/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dyjvxorikgmhzogqicqhtegzawxv/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 objective-c com.apple.compilers.gcc.4_2
+s396098186.977615
+e396098199.785595
+r1
+xProcessPCH
+x/var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dyjvxorikgmhzogqicqhtegzawxv/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xobjective-c
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch396098186#396098199#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch4317978624#1269"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x objective-c-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dyjvxorikgmhzogqicqhtegzawxv/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-ainrijsaikrclcbtjndyniibmvvo/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+r0
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-avouosnmizctcgbbjqefeiaeudnq/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s378248295.235843
+e378248295.613034
+r1
+xProcessPCH++
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-avouosnmizctcgbbjqefeiaeudnq/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248295#378248295#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8624876768#1224"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-avouosnmizctcgbbjqefeiaeudnq/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-bmpsperxniththbacdicpehrdmgx/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s378248530.284062
+e378248530.512112
+r1
+xProcessPCH++
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-bmpsperxniththbacdicpehrdmgx/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248530#378248530#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8625820768#1232"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-bmpsperxniththbacdicpehrdmgx/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-cfqdcvlwjmcqehcjxfnslyzurmty/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
+s378248298.982905
+e378248299.161661
+r1
+xProcessPCH++
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-cfqdcvlwjmcqehcjxfnslyzurmty/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248298#378248299#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8624734528#1224"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-cfqdcvlwjmcqehcjxfnslyzurmty/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dpxstgwxnejwlqaqqkxoszrdgwxu/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
+s378248532.907677
+e378248533.079765
+r1
+xProcessPCH++
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dpxstgwxnejwlqaqqkxoszrdgwxu/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248532#378248533#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8623287296#1232"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-dpxstgwxnejwlqaqqkxoszrdgwxu/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-ebicyslbjtqjindaraxtxiqiuehs/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
+r0
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-espjjnoowfyikmclvfodejrifisz/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s378236366.381437
+e378236366.903720
+r1
+xProcessPCH++
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-espjjnoowfyikmclvfodejrifisz/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378236366#378236366#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8616000352#1152"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-espjjnoowfyikmclvfodejrifisz/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
+s378249067.314635
+e378249067.695625
+r1
+xProcessPCH++
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378249067#378249067#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8625772928#1293"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s378249064.175225
+e378249064.424278
+r1
+xProcessPCH++
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378249064#378249064#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8632857760#1293"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fnyauiggwfpfquafvrhlyuradbxc/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
+s378236366.383105
+e378236366.914949
+r1
+xProcessPCH++
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fnyauiggwfpfquafvrhlyuradbxc/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378236366#378236366#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8615792032#1151"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fnyauiggwfpfquafvrhlyuradbxc/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fywgijsvtbwhgjaclujomlncetrf/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s378248407.316573
+e378248407.552205
+r1
+xProcessPCH++
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fywgijsvtbwhgjaclujomlncetrf/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248407#378248407#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8598563552#1205"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL_image.framework -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fywgijsvtbwhgjaclujomlncetrf/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-gzledamrukahzdgturvmdfselbtn/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
+s378248410.088896
+e378248410.250219
+r1
+xProcessPCH++
+x/var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-gzledamrukahzdgturvmdfselbtn/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch378248410#378248410#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch8625298016#1204"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Users/alex/Library/Frameworks/SDL_image.framework -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/Iu/Iu6DOPipE-SHmsQV9D8xDU+++TI/-Caches-/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-gzledamrukahzdgturvmdfselbtn/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal i386 c++ com.apple.compilers.gcc.4_0
+s396098196.443885
+e396098197.052145
+r1
+xProcessPCH++
+x/var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xi386
+xc++
+xcom.apple.compilers.gcc.4_0
+lSLF07#2@29"Precompile sdlgame_Prefix.pch396098196#396098197#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch4317978624#1289"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.0 -x c++-header -arch i386 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.4u.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.4 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.4u.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/i386 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fbwwzjzfqzbhiuhjighfehtmmzua/sdlgame_Prefix.pch.gch0#
+
+CProcessPCH++ /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch.gch sdlgame_Prefix.pch normal x86_64 c++ com.apple.compilers.gcc.4_2
+s396098186.982074
+e396098187.984953
+r1
+xProcessPCH++
+x/var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch.gch
+xsdlgame_Prefix.pch
+xnormal
+xx86_64
+xc++
+xcom.apple.compilers.gcc.4_2
+lSLF07#2@29"Precompile sdlgame_Prefix.pch396098186#396098187#0(0"0(0#0#48"/Users/alex/Documents/sdlgame/sdlgame_Prefix.pch4317978624#1289"    cd /Users/alex/Documents/sdlgame    setenv LANG en_US.US-ASCII    /Developer/usr/bin/gcc-4.2 -x c++-header -arch x86_64 -fmessage-length=0 -pipe -Wno-trigraphs -fpascal-strings -fasm-blocks -O0 -Wreturn-type -Wunused-variable -isysroot /Developer/SDKs/MacOSX10.6.sdk -mfix-and-continue -fvisibility-inlines-hidden -mmacosx-version-min=10.6 -gdwarf-2 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/sdlgame.hmap -F/Users/alex/Documents/sdlgame/build/Debug -F/Users/alex/Library/Frameworks -F/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks -I/Users/alex/Documents/sdlgame/build/Debug/include -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL_image.framework/Headers -I/Users/alex/Library/Frameworks/SDL.framework/Headers -I/Developer/SDKs/MacOSX10.6.sdk/Library/Frameworks/SDL.framework/Headers -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources/x86_64 -I/Users/alex/Documents/sdlgame/build/sdlgame.build/Debug/sdlgame.build/DerivedSources -c /Users/alex/Documents/sdlgame/sdlgame_Prefix.pch -o /var/folders/_f/j0ytdvpn01g4ybhwhkswnx7r0000gn/C/com.apple.Xcode.501/SharedPrecompiledHeaders/sdlgame_Prefix-fhldwldxkizxojazjvsmyfgsmkhp/sdlgame_Prefix.pch.gch0#
+
+CTouch /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app
+s396098206.747481
+e396098206.762758
+r1
+xTouch
+x/Users/alex/Documents/sdlgame/build/Debug/sdlgame.app
+lSLF07#2@59"Touch /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app396098206#396098206#0(0"0(0#0#0"4317978624#113"    cd /Users/alex/Documents/sdlgame    /usr/bin/touch -c /Users/alex/Documents/sdlgame/build/Debug/sdlgame.app0#
+
