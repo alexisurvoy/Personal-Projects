@@ -1,4 +1,3 @@
-import java.awt.Color;
 import java.awt.Dimension;
 import java.awt.Graphics;
 import java.awt.Image;
@@ -7,7 +6,7 @@ import javax.swing.ImageIcon;
 import javax.swing.JPanel;
 
 
-public class Alien extends JPanel implements Runnable{
+public class Alien extends JPanel{
 	
 	private int _valeur, _vitesse, _posX, _posY, collision;
 	
@@ -44,6 +43,14 @@ public class Alien extends JPanel implements Runnable{
 	
 	public void setY(int newY){
 		this._posY = newY;
+	}
+	
+	public int getX(){
+		return this._posX;
+	}
+	
+	public int getY(){
+		return this._posY;
 	}
 	
 	public void supprimer(){

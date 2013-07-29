@@ -1,7 +1,6 @@
 import java.awt.BorderLayout;
 import java.awt.Color;
 import java.awt.Cursor;
-import java.awt.Dimension;
 import java.awt.Image;
 import java.awt.Point;
 import java.awt.Toolkit;
@@ -11,7 +10,6 @@ import java.util.ArrayList;
 
 import javax.swing.JFrame;
 import javax.swing.JLayeredPane;
-import javax.swing.JPanel;
 
 
 public class Fenetre extends JFrame{
@@ -44,7 +42,7 @@ public class Fenetre extends JFrame{
 		fortifs();
 		
 		//Création des aliens
-		aliens();
+		Aliens aliens = new Aliens(this);
 		
 		//Création du vaisseau
 		this.spaceship = new Vaisseau();
@@ -60,6 +58,9 @@ public class Fenetre extends JFrame{
 		Cursor monCurseur = tk.createCustomCursor(img, new Point(11, 11), "souris");
 		setCursor(monCurseur);
 		
+		//Lancement des threads
+		aliens.start();
+		
 		setVisible(true);
 	}
 	
@@ -73,15 +74,6 @@ public class Fenetre extends JFrame{
 
 	}
 	
-	private void aliens(){
-		for(int i = 0; i < 10; i++){
-			Alien a = new Alien(10, (150+(50*i)), 50);
-			this.getContentPane().add(a);
-			this.aliens.add(a);
-			setVisible(true);
-		}
-	}
-
 	private void ecouteurDeplacementVaisseau(){
 		this.addMouseMotionListener(new MouseAdapter() {
 			public void mouseMoved(MouseEvent e){
